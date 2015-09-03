@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dD0-Ym-BEF" customClass="EPCircularProgressIndicator">
+                                <rect key="frame" x="117" y="90" width="140" height="140"/>
+                                <color key="backgroundColor" red="1" green="0.37647058823529411" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="Sx3-Ky-IoL"/>
+                                    <constraint firstAttribute="width" constant="140" id="VuP-e4-XEO"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a8y-Jd-wP2" customClass="EPCircularProgressIndicator">
+                                <rect key="frame" x="152" y="310" width="70" height="70"/>
+                                <color key="backgroundColor" red="1" green="0.37647058820000001" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="V4H-bl-XBa"/>
+                                    <constraint firstAttribute="width" constant="70" id="h8B-xy-TTA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="a8y-Jd-wP2" secondAttribute="centerX" id="CW1-qy-qKL"/>
+                            <constraint firstItem="a8y-Jd-wP2" firstAttribute="top" secondItem="dD0-Ym-BEF" secondAttribute="bottom" constant="80" id="QVO-ge-3Kz"/>
+                            <constraint firstAttribute="centerX" secondItem="dD0-Ym-BEF" secondAttribute="centerX" id="hEj-fD-SKz"/>
+                            <constraint firstItem="dD0-Ym-BEF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="vrF-q7-oo8"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="progressIndicator1" destination="dD0-Ym-BEF" id="ScT-NJ-w6G"/>
+                        <outlet property="progressIndicator2" destination="a8y-Jd-wP2" id="Loc-s6-Yw6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="374.5" y="315.5"/>
         </scene>
     </scenes>
 </document>

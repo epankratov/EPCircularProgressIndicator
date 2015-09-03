@@ -9,22 +9,12 @@
 /* Begin PBXBuildFile section */
 		44F913371B9836930024C982 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F913361B9836930024C982 /* main.m */; };
 		44F9133A1B9836930024C982 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F913391B9836930024C982 /* AppDelegate.m */; };
-		44F9133D1B9836930024C982 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F9133C1B9836930024C982 /* ViewController.m */; };
+		44F9133D1B9836930024C982 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F9133C1B9836930024C982 /* MainViewController.m */; };
 		44F913401B9836930024C982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F9133E1B9836930024C982 /* Main.storyboard */; };
 		44F913421B9836930024C982 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F913411B9836930024C982 /* Images.xcassets */; };
 		44F913451B9836930024C982 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F913431B9836930024C982 /* LaunchScreen.xib */; };
-		44F913511B9836930024C982 /* EPCircularProgressIndicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F913501B9836930024C982 /* EPCircularProgressIndicatorTests.m */; };
+		44F9135C1B9839B10024C982 /* EPCircularProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F9135B1B9839B10024C982 /* EPCircularProgressIndicator.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		44F9134B1B9836930024C982 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 44F913291B9836930024C982 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 44F913301B9836930024C982;
-			remoteInfo = EPCircularProgressIndicator;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		44F913311B9836930024C982 /* EPCircularProgressIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPCircularProgressIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,25 +22,17 @@
 		44F913361B9836930024C982 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44F913381B9836930024C982 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44F913391B9836930024C982 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		44F9133B1B9836930024C982 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		44F9133C1B9836930024C982 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44F9133B1B9836930024C982 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		44F9133C1B9836930024C982 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		44F9133F1B9836930024C982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44F913411B9836930024C982 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		44F913441B9836930024C982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		44F9134A1B9836930024C982 /* EPCircularProgressIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPCircularProgressIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		44F9134F1B9836930024C982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44F913501B9836930024C982 /* EPCircularProgressIndicatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPCircularProgressIndicatorTests.m; sourceTree = "<group>"; };
+		44F9135A1B9839B10024C982 /* EPCircularProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPCircularProgressIndicator.h; sourceTree = "<group>"; };
+		44F9135B1B9839B10024C982 /* EPCircularProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPCircularProgressIndicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		44F9132E1B9836930024C982 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		44F913471B9836930024C982 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				44F913331B9836930024C982 /* EPCircularProgressIndicator */,
-				44F9134D1B9836930024C982 /* EPCircularProgressIndicatorTests */,
 				44F913321B9836930024C982 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				44F913311B9836930024C982 /* EPCircularProgressIndicator.app */,
-				44F9134A1B9836930024C982 /* EPCircularProgressIndicatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,10 +61,12 @@
 		44F913331B9836930024C982 /* EPCircularProgressIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				44F9135A1B9839B10024C982 /* EPCircularProgressIndicator.h */,
+				44F9135B1B9839B10024C982 /* EPCircularProgressIndicator.m */,
 				44F913381B9836930024C982 /* AppDelegate.h */,
 				44F913391B9836930024C982 /* AppDelegate.m */,
-				44F9133B1B9836930024C982 /* ViewController.h */,
-				44F9133C1B9836930024C982 /* ViewController.m */,
+				44F9133B1B9836930024C982 /* MainViewController.h */,
+				44F9133C1B9836930024C982 /* MainViewController.m */,
 				44F9133E1B9836930024C982 /* Main.storyboard */,
 				44F913411B9836930024C982 /* Images.xcassets */,
 				44F913431B9836930024C982 /* LaunchScreen.xib */,
@@ -98,23 +80,6 @@
 			children = (
 				44F913351B9836930024C982 /* Info.plist */,
 				44F913361B9836930024C982 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		44F9134D1B9836930024C982 /* EPCircularProgressIndicatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				44F913501B9836930024C982 /* EPCircularProgressIndicatorTests.m */,
-				44F9134E1B9836930024C982 /* Supporting Files */,
-			);
-			path = EPCircularProgressIndicatorTests;
-			sourceTree = "<group>";
-		};
-		44F9134E1B9836930024C982 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				44F9134F1B9836930024C982 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,24 +104,6 @@
 			productReference = 44F913311B9836930024C982 /* EPCircularProgressIndicator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		44F913491B9836930024C982 /* EPCircularProgressIndicatorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 44F913571B9836930024C982 /* Build configuration list for PBXNativeTarget "EPCircularProgressIndicatorTests" */;
-			buildPhases = (
-				44F913461B9836930024C982 /* Sources */,
-				44F913471B9836930024C982 /* Frameworks */,
-				44F913481B9836930024C982 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				44F9134C1B9836930024C982 /* PBXTargetDependency */,
-			);
-			name = EPCircularProgressIndicatorTests;
-			productName = EPCircularProgressIndicatorTests;
-			productReference = 44F9134A1B9836930024C982 /* EPCircularProgressIndicatorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +115,6 @@
 				TargetAttributes = {
 					44F913301B9836930024C982 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					44F913491B9836930024C982 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 44F913301B9836930024C982;
 					};
 				};
 			};
@@ -189,7 +132,6 @@
 			projectRoot = "";
 			targets = (
 				44F913301B9836930024C982 /* EPCircularProgressIndicator */,
-				44F913491B9836930024C982 /* EPCircularProgressIndicatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,13 +147,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44F913481B9836930024C982 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,29 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F9133D1B9836930024C982 /* ViewController.m in Sources */,
+				44F9135C1B9839B10024C982 /* EPCircularProgressIndicator.m in Sources */,
+				44F9133D1B9836930024C982 /* MainViewController.m in Sources */,
 				44F9133A1B9836930024C982 /* AppDelegate.m in Sources */,
 				44F913371B9836930024C982 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44F913461B9836930024C982 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				44F913511B9836930024C982 /* EPCircularProgressIndicatorTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		44F9134C1B9836930024C982 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 44F913301B9836930024C982 /* EPCircularProgressIndicator */;
-			targetProxy = 44F9134B1B9836930024C982 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		44F9133E1B9836930024C982 /* Main.storyboard */ = {
@@ -299,7 +219,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -349,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = EPCircularProgressIndicator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,43 +280,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = EPCircularProgressIndicator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		44F913581B9836930024C982 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = EPCircularProgressIndicatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPCircularProgressIndicator.app/EPCircularProgressIndicator";
-			};
-			name = Debug;
-		};
-		44F913591B9836930024C982 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = EPCircularProgressIndicatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPCircularProgressIndicator.app/EPCircularProgressIndicator";
 			};
 			name = Release;
 		};
@@ -416,14 +304,6 @@
 			buildConfigurations = (
 				44F913551B9836930024C982 /* Debug */,
 				44F913561B9836930024C982 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		44F913571B9836930024C982 /* Build configuration list for PBXNativeTarget "EPCircularProgressIndicatorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				44F913581B9836930024C982 /* Debug */,
-				44F913591B9836930024C982 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
